@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" tyoe="text/css" href="css/zhuc.css"/>	
+	<link rel="stylesheet" href="font/iconfont.css">
+	<body>
+		<div id="box">
+			<div id="box_h2">
+				<h2>用户注册</h2>
+				<p>已有账号？<a href="">立即登录</a></p>			
+			</div>
+			<form action="php/register.php" method="post">
+				<div id="box_inp_none" ></div>
+				<ul>
+					<li><span><i class="iconfont">&#xe6b1;</i></span><input type="text" class="box_inp1" name="uname" placeholder="邮箱、手机号"/></li>
+					<li><span><i class="iconfont">&#xe600;</i></span><input type="text" class="box_inp1" name="upwd" placeholder="6-16位字符，必须包含英文字母和数字"/></li>
+					<li><span><i class="iconfont">&#xe639;</i></span><input type="text" class="box_inp2" placeholder="输入验证码"/><span class="yz"></span></li>
+					<li><span><i class="iconfont">&#xe61f;</i></span><input type="text" class="box_inp2" placeholder="输入手机验证码"/><span class="yz syz">获取验证码</span></li>
+				</ul>
+				<p><input type="checkbox" class="box_xy" checked/>我已阅读并同意<a href="">《速普商城用户协议》</a></p>
+				<input type="submit" id="box_btn" value="注册" />
+			</form>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	var oForm =document.querySelector("form");
+	oForm.onsubmit=function(){
+		
+	}
+</script>
