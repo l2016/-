@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/zhuc.css"/>
+	<link rel="stylesheet" href="font/iconfont.css">
+	<style type="text/css">
+		body{
+		    background: url(img/dengl.gif) no-repeat;
+		    position: relative;
+		    margin: 0 auto;
+		}
+	</style>
+	<body>
+		<div id="box">
+			<div id="box_h2">
+				<h2>用户登录</h2>
+				<p>没有账号？<a href="http://127.0.0.1/sp/hdl/zhuc.html">立即注册</a></p>			
+			</div>
+			<form action="php/login.php" method="post">
+				<div id="box_inp_none" ></div>
+				<ul>
+					<li><span><i class="iconfont">&#xe6b1;</i></span><input type="text" class="box_inp1" id="uname" name="uname" placeholder="邮箱、手机号"/></li>
+					<li><span><i class="iconfont">&#xe600;</i></span><input type="text" class="box_inp1" id="upwd" name="upwd" placeholder="6-16位字符，必须包含英文字母和数字"/></li>
+				</ul>
+				<p><input type="checkbox" class="box_xy" checked/>我已阅读并同意<a href="">《速普商城用户协议》</a></p>
+				<input type="submit" id="box_btn" value="登录" />
+			</form>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript">
+	
+</script>

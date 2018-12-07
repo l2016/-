@@ -1,0 +1,171 @@
+section {
+  width: 100%;
+  background: #f3f3f3;
+}
+section .nezp {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+section .nezp .nezp_sy {
+  padding: 16px 10px;
+}
+section .nezp .nezp_sy a {
+  color: #666;
+  padding-right: 10px;
+}
+section .nezp .nezp_fd {
+  width: 1200px;
+  height: 548px;
+  margin: 0 auto;
+  background: white;
+  position: relative;
+}
+section .nezp .nezp_fd #box {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 450px;
+  height: 510px;
+}
+section .nezp .nezp_fd #box #small {
+  width: 420px;
+  height: 420px;
+  overflow: hidden;
+}
+section .nezp .nezp_fd #box #small img {
+  width: 418px;
+  height: 418px;
+  border: 1px solid #ccc;
+}
+section .nezp .nezp_fd #box #small #mask {
+  width: 210.5px;
+  height: 210.5px;
+  background: red;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+section .nezp .nezp_fd #box #bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+section .nezp .nezp_fd #box #bottom li {
+  float: left;
+  padding: 10px;
+}
+section .nezp .nezp_fd #box #bottom li img {
+  width: 66px;
+  height: 66px;
+  border: 1px solid #ccc;
+}
+section .nezp .nezp_fd #box #big {
+  width: 420px;
+  height: 420px;
+  position: absolute;
+  top: 0;
+  left: 450px;
+  border: 1px solid red;
+  overflow: hidden;
+  display: none;
+}
+section .nezp .nezp_fd #box #big img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 840px;
+  height: 840px;
+}
+section .nezp .nezp_xq {
+  width: 720px;
+  height: 548px;
+  position: absolute;
+  top: 48px;
+  right: 0;
+}
+section .nezp .nezp_xq h3 {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 50px;
+}
+section .nezp .nezp_xq > p {
+  font-size: 16px;
+  color: #333;
+  line-height: 30px;
+}
+section .nezp .nezp_xq > .nezp_xq_cs {
+  width: 710px;
+  height: 60px;
+  background: #ccc;
+  position: relative;
+  margin-top: 10px;
+  line-height: 30px;
+  color: #666;
+}
+section .nezp .nezp_xq > .nezp_xq_cs p {
+  padding-left: 10px;
+}
+section .nezp .nezp_xq > .nezp_xq_cs p span {
+  margin-left: 50px;
+}
+section .nezp .nezp_xq > .nezp_xq_cs p:first-of-type span:first-of-type {
+  font-size: 16px;
+  color: #e5004b;
+}
+section .nezp .nezp_xq > .nezp_xq_cs p:first-of-type span:last-of-type {
+  width: 80px;
+  height: 18px;
+  color: white;
+  background: #ff8a00;
+}
+section .nezp .nezp_xq > .nezp_xq_cs .dizhi {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+section .nezp .nezp_xq > .nezp_xq_cs .dizhi i {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+section .nezp .nezp_xq > .nezp_xq_cs .numm2 {
+  width: 50px;
+  height: 36px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+section .nezp .nezp_xq > .nezp_xq_cs .numm1, section .nezp .nezp_xq > .nezp_xq_cs .numm3 {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ccc;
+}
+section .nezp .nezp_xq > .nezp_xq_cs .numm4 {
+  margin: 20px;
+  width: 100px;
+  height: 36px;
+  background: #e5004b;
+  border: 0;
+  color: white;
+}
+section .spxq {
+  width: 1200px;
+  height: 3700px;
+  margin: 20px auto 0;
+  position: relative;
+}
+section .spxq span {
+  padding: 40px;
+}
+section .spxq ul {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+/*# sourceMappingURL=xq.css.map */

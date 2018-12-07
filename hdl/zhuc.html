@@ -4,21 +4,21 @@
 		<meta charset="UTF-8">
 		<title></title>
 	</head>
-	<link rel="stylesheet" tyoe="text/css" href="css/zhuc.css"/>	
+	<link rel="stylesheet" type="text/css" href="css/zhuc.css"/>
 	<link rel="stylesheet" href="font/iconfont.css">
 	<body>
 		<div id="box">
 			<div id="box_h2">
 				<h2>用户注册</h2>
-				<p>已有账号？<a href="">立即登录</a></p>			
+				<p>已有账号？<a href="http://127.0.0.1/sp/hdl/denglu.html">立即登录</a></p>			
 			</div>
 			<form action="php/register.php" method="post">
 				<div id="box_inp_none" ></div>
 				<ul>
-					<li><span><i class="iconfont">&#xe6b1;</i></span><input type="text" class="box_inp1" name="uname" placeholder="邮箱、手机号"/></li>
-					<li><span><i class="iconfont">&#xe600;</i></span><input type="text" class="box_inp1" name="upwd" placeholder="6-16位字符，必须包含英文字母和数字"/></li>
-					<li><span><i class="iconfont">&#xe639;</i></span><input type="text" class="box_inp2" placeholder="输入验证码"/><span class="yz"></span></li>
-					<li><span><i class="iconfont">&#xe61f;</i></span><input type="text" class="box_inp2" placeholder="输入手机验证码"/><span class="yz syz">获取验证码</span></li>
+					<li><span><i class="iconfont">&#xe6b1;</i></span><input type="text" class="box_inp1" id="uname" name="uname" placeholder="邮箱、手机号"/></li>
+					<li><span><i class="iconfont">&#xe600;</i></span><input type="text" class="box_inp1" id="upwd" name="upwd" placeholder="6-16位字符，必须包含英文字母和数字"/></li>
+					<li><span><i class="iconfont">&#xe639;</i></span><input type="text" class="box_inp2" id="yzm1" placeholder="输入验证码"/><span class="yz" id="yz"></span></li>
+					<li><span><i class="iconfont">&#xe61f;</i></span><input type="text" class="box_inp2" id="sjyz" placeholder="输入手机验证码"/><span class="yz syz">获取验证码</span></li>
 				</ul>
 				<p><input type="checkbox" class="box_xy" checked/>我已阅读并同意<a href="">《速普商城用户协议》</a></p>
 				<input type="submit" id="box_btn" value="注册" />
@@ -26,9 +26,56 @@
 		</div>
 	</body>
 </html>
+<script type="text/javascript" src="js/public.js"></script>
 <script type="text/javascript">
 	var oForm =document.querySelector("form");
 	oForm.onsubmit=function(){
-		
+		if(flagTel&&flagPwd&&flagYanzs){
+			return true;
+		}else{
+			alert("注册不合法");
+			return false;
+		}
+	}
+	//用户名
+	var flagTel=null;
+	$id("uname").onblur=function(){
+		var reg=/^(1\d{10})|(\w+@\w+(\.\w+)+)$/;
+		var unameTxt=$id("uname").value;
+		if(reg.test(unameTxt)){
+			$id("box_inp_none").innerHTML="用户名合法";
+			flagTel=true;
+		}else{
+			$id("box_inp_none").innerHTML="用户名不合法";
+			flagTel=false;
+		}
+	}
+	//密码
+	var flagPwd=null;
+	$id("upwd").onblur=function(){
+		var reg=/^[a-zA-Z0-9]{6,16}$/;
+		var pwdTxt=$id("upwd").value;
+		if(reg.test(pwdTxt)){
+			$id("box_inp_none").innerHTML="密码合法";
+			flagPwd=true;
+		}else{
+			$id("box_inp_none").innerHTML="密码不合法";
+			flagPwd=false;
+		}
+	}
+	//验证码
+	$id("yz").innerHTML=yzm();
+	$id("yz").onclick=function(){
+		$id("yz").innerHTML=yzm();
+	}
+	var flagYanzs=null;
+	$id("yzm1").onblur =function(){
+		if($id("yz").innerHTML===$id("yzm1").value){
+			$id("box_inp_none").innerHTML="验证码正确";
+			flagYanzs=true;
+		}else{
+			$id("box_inp_none").innerHTML="验证码不一致";
+			flagYanzs=false;
+		}		
 	}
 </script>

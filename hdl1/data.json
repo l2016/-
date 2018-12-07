@@ -1,0 +1,37 @@
+[
+	{
+		"id":"sh1",
+		"name":"木玩世家&nbsp;水果切切看&nbsp;BH3601",
+		"src":"djs_01.gif",
+		"money":"￥39",
+		"price":"￥89"
+	},	
+	{
+		"id":"sh2",
+		"name":"木玩世家&nbsp;家人&nbsp;i3003",
+		"src":"djs_02.gif",
+		"money":"￥79",
+		"price":"￥189"
+	},
+	{
+		"id":"sh3",
+		"name":"【保税区直发】&nbsp;MUSTELA妙思乐&nbsp;法国儿",
+		"src":"djs_03.gif",
+		"money":"￥79",
+		"price":"￥129"
+	},
+	{
+		"id":"sh4",
+		"name":"【保税区直发】&nbsp;Let's&nbsp; diet韩国",
+		"src":"djs_04.gif",
+		"money":"￥129",
+		"price":"￥209"
+	},
+	{
+		"id":"sh5",
+		"name":"【保税区直发】&nbsp;A.&nbsp;by BOM",
+		"src":"djs_05.gif",
+		"money":"￥139",
+		"price":"￥259"
+	}
+]

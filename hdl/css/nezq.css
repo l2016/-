@@ -1,0 +1,161 @@
+#ban_ul {
+  z-index: 10;
+  display: none;
+}
+
+section {
+  width: 100%;
+  background: #f3f3f3;
+}
+section .nezp {
+  width: 1200px;
+  min-height: 2000px;
+  margin: 0 auto;
+  position: relative;
+}
+section .nezp .nezp_sy {
+  padding: 16px 10px;
+}
+section .nezp .nezp_sy a {
+  color: #666;
+  padding-right: 10px;
+}
+section .nezp .nazp_cat {
+  width: 100%;
+  position: relative;
+}
+section .nezp .nazp_cat .nazp_left {
+  background: white;
+  max-width: 200px;
+}
+section .nezp .nazp_cat .nazp_left ul {
+  width: 165px;
+  padding: 0 20px;
+}
+section .nezp .nazp_cat .nazp_left ul li {
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+section .nezp .nazp_cat .nazp_left ul li a {
+  color: #666;
+}
+section .nezp .nazp_cat .nazp_left ul li:last-of-type {
+  border-bottom: 0;
+}
+section .nezp .nazp_cat .nazp_left ul li:first-of-type {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  border-bottom: 3px solid #e5004b;
+}
+section .nezp .nazp_cat .nazp_right {
+  width: 985px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+section .nezp .nazp_cat .nazp_right li {
+  float: left;
+}
+section .nezp .nazp_cat .nazp_right li a {
+  color: #666;
+}
+section .nezp .nazp_cat .nazp_right .nazp_r_t1 {
+  background: white;
+  width: 985px;
+  height: 80px;
+  float: left;
+  position: relative;
+}
+section .nezp .nazp_cat .nazp_right .nazp_r_t1 p {
+  padding-left: 10px;
+  width: 76px;
+  height: 80px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+  line-height: 60px;
+}
+section .nezp .nazp_cat .nazp_right .nazp_r_t1 ul {
+  position: absolute;
+  top: 12px;
+  left: 76px;
+}
+section .nezp .nazp_cat .nazp_right .nazp_r_t1 ul li {
+  padding: 8px 25px;
+}
+section .nezp .nazp_cat .nazp_right .nezp_r_t2 {
+  background: white;
+  width: 985px;
+  height: 36px;
+  position: absolute;
+  top: 82px;
+  right: 0;
+}
+section .nezp .nazp_cat .nazp_right .nezp_r_t2 span {
+  padding-left: 20px;
+  width: 76px;
+  height: 36px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+  line-height: 36px;
+}
+section .nezp .nazp_cat .nazp_right .nezp_r_t2 ul {
+  position: absolute;
+  top: 0;
+  left: 76px;
+}
+section .nezp .nazp_cat .nazp_right .nezp_r_t2 ul li {
+  line-height: 36px;
+  padding: 0 10px;
+}
+section .nezp .nazp_cat .nazp_right .nezp_caa {
+  width: 985px;
+  position: absolute;
+  top: 125px;
+  left: 0;
+}
+section .nezp .nazp_cat .nazp_right .nezp_caa .nezp_caa_ul {
+  position: absolute;
+  width: 985px;
+  overflow: hidden;
+}
+section .nezp .nazp_cat .nazp_right .nezp_caa .nezp_caa_ul li {
+  width: 200px;
+  height: 300px;
+  background: white;
+  margin: 10px 20px;
+  border: 3px solid white;
+}
+section .nezp .nazp_cat .nazp_right .nezp_caa .nezp_caa_ul li span {
+  margin-left: 10px;
+}
+section .nezp .nazp_cat .nazp_right .nezp_caa .nezp_caa_ul li p {
+  margin-left: 10px;
+}
+section .nezp .nazp_cat .nazp_right .nezp_caa .nezp_caa_ul li .pp {
+  color: #e5004b;
+}
+section .nezp .nazp_cat .nazp_right .nezp_caa .nezp_caa_ul li img {
+  width: 200px;
+  height: 200px;
+}
+section .nezp .nazp_cat .nazp_right .nezp_caa .nezp_caa_ul li .nezp_caa_pt2 {
+  width: 100px;
+  height: 30px;
+  background: #ccc;
+  line-height: 30px;
+  text-align: center;
+  border: 0;
+}
+
+#nav_shous #nav_shouso .nav_gw {
+  position: fixed;
+  top: 60px;
+  right: 80px;
+  z-index: 100;
+}
+
+/*# sourceMappingURL=nezq.css.map */

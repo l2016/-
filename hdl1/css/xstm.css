@@ -1,0 +1,166 @@
+#banner > .ban_right {
+  margin: -30px 0 0 551px;
+}
+#banner > .ban_left {
+  margin: -30px 0 0 -557px;
+}
+
+#ban_ul {
+  display: none;
+}
+
+.xstm {
+  background: #f6f6f6;
+}
+.xstm .xstm_sect ul {
+  height: 90px;
+  background: #f6f6f6;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+section #main {
+  width: 1100px;
+  min-height: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+section #main .main_left {
+  width: 784px;
+  margin-top: 14px;
+}
+section #main .main_left .main_left_t {
+  width: 784px;
+  height: 39px;
+  background: #e9457f;
+  position: relative;
+}
+section #main .main_left .main_left_t h3 {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 39px;
+  padding-left: 7px;
+  color: #f5fc53;
+}
+section #main .main_left .main_left_t ol {
+  float: right;
+}
+section #main .main_left .main_left_t ol li {
+  font-size: 12px;
+  float: left;
+  line-height: 28px;
+  padding: 7px;
+  color: white;
+}
+section #main .main_left > ul {
+  width: 784px;
+}
+section #main .main_left > ul > li {
+  width: 782px;
+  height: 234px;
+  background: white;
+  margin: 10px 0;
+  border: 1px solid #f6f6f6;
+  position: relative;
+}
+section #main .main_left > ul > li .main_left_b > ul {
+  width: 194px;
+}
+section #main .main_left > ul > li .main_left_b > ul li {
+  padding: 10px 0;
+  width: 194px;
+  text-align: center;
+  color: #666;
+}
+section #main .main_left > ul > li .main_left_b > ul li:nth-of-type(3) {
+  font-size: 18px;
+  color: #e5004b;
+  line-height: 75px;
+}
+section #main .main_left > ul > li > a > img {
+  width: 588px;
+  height: 234px;
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+section #main .main_right {
+  width: 300px;
+  height: 600px;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+section #main .main_right #sp {
+  width: 300px;
+  height: 34px;
+  position: absolute;
+}
+section #main .main_right #sp span {
+  width: 150px;
+  height: 34px;
+  display: inline-block;
+  float: left;
+  line-height: 34px;
+  text-align: center;
+  color: #f679a3;
+  font-size: 16px;
+}
+section #main .main_right #sp span:last-of-type {
+  background: #fed8e5;
+}
+section #main .main_right #Lg {
+  position: absolute;
+  top: 34px;
+  width: 300px;
+  height: 549px;
+}
+section #main .main_right #Lg #lg_a {
+  margin: 17px 0;
+  padding: 0 5px;
+}
+section #main .main_right #Lg #lg_a #Lg_tb {
+  width: 291px;
+  height: 12px;
+  background: #a6ce39;
+}
+section #main .main_right #Lg #lg_a #Lg_ul {
+  width: 290px;
+  height: 520px;
+}
+section #main .main_right #Lg #lg_a #Lg_ul ul {
+  position: absolute;
+}
+section #main .main_right #Lg #lg_a #Lg_ul ul li {
+  width: 144px;
+  height: 103px;
+  float: left;
+  border-bottom: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+}
+section #main .main_right #Lg #lg_a #Lg_ul ul li a {
+  width: 136px;
+  height: 95px;
+  display: inline-block;
+  border: 4px solid white;
+  position: relative;
+}
+section #main .main_right #Lg #lg_a #Lg_ul ul li a img {
+  width: 120px;
+  height: 56px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section #main .main_right #Lg #lg_a #Lg_ul ul li:nth-of-type(1), section #main .main_right #Lg #lg_a #Lg_ul ul li:nth-of-type(2) {
+  border-top: 1px solid #f5f5f5;
+}
+section #main .main_right #Lg #lg_a #Lg_ul ul li:nth-of-type(odd) {
+  border-left: 1px solid #f5f5f5;
+}
+
+/*# sourceMappingURL=xstm.css.map */

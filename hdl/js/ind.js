@@ -124,7 +124,6 @@ $.ajax({
 			shData(arr);
 			/*限时抢购*/
 			$(".sect_hd1_1 li").mouseenter(function(){
-				console.log($(this).index());
 				$(".sect_hd1_2").eq($(this).index()).css("opacity",0.5);
 				$(".sect_hd1_3").eq($(this).index()).css("display","block").animate({left:116},500);
 			}).mouseleave(function(){
